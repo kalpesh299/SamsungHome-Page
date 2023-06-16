@@ -1,0 +1,1036 @@
+*{
+    padding:0;
+    margin:0;
+
+}
+
+body{
+    /* height:100vh; */
+    width:100vw;
+    /* border:2px solid red; */
+    overflow-x: hidden;
+}
+
+header{
+height:10vh;
+width:100vw;
+/* border:2px solid green; */
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.header_main_cotainer{
+    width:90%;
+    height:100%;
+    /* border: 2px solid magenta; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+
+.logo{
+    height:100%;
+    width:10%;
+    /* border: 2px solid hotpink; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.middle_menu{
+    height:100%;
+    width:55%;
+    /* border:2px solid gold; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle_menu ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+}
+
+
+.middle_menu ul li{
+    padding:0.5%;
+    font-family: 'SamsungOne',arial,sans-serif;
+    font-size: 0.9em;
+    font-weight: 550;
+    padding: 0.5rem;
+    
+}
+
+
+.middle_menu ul li:hover{
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+}
+
+.right_menu{
+    height:100%;
+    width:30%;
+    /* border:2px solid green; */
+  
+}
+.right_menu ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width:100%;
+    height:100%;
+}
+.right_menu1{
+    width:45%;
+    height:100%;
+    /* border: 2px solid hotpink; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.right_menu1 li{
+    padding:0.5%;
+    font-family: 'SamsungOne',arial,sans-serif;
+    font-size: 0.9em;
+    font-weight: 550;
+    padding: 0.5rem;
+}
+.right_menu1 li:hover{
+   background-color: black;
+   color: white;
+   border-radius: 25px;
+}
+
+.right_menu2{
+    width:50%;
+    height:100%;
+    /* border: 2px solid hotpink; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.right_menu2 li{
+    padding:0.5%;
+    font-family: 'SamsungOne',arial,sans-serif;
+    font-size: 0.9em;
+    font-weight: 550;
+    padding: 0.5rem;
+}
+
+.main_container_1{
+    height:83vh;
+    width:100vw;
+    /* border: 2px solid lawngreen; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* @media only screen and (max-width: 414px) {
+    body {
+      background-color: lightblue;
+    }
+    .main_container_1{ 
+    width: 100%;
+    }
+  } */
+
+
+
+.main_container_1_slide{
+    height:100%;
+    width:95%;
+    background-image:url(./slidshowimg1.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* @media only screen and (max-width: 1170px) {
+    .main_container_1_slide{
+        height:100%;
+        width:70%;
+        background-image:url(./slidshowimg1.jpg);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        object-fit:fill;
+       
+    }
+} */
+
+.main_container_1_slide_content h1{
+    font-size: 3.2em;
+    width: 80%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'SamsungSharpSans',arial,sans-serif;
+    padding: 0rem 0rem 2rem 3rem ;
+
+}
+.main_container_1_slide_content p{
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'SamsungOne',arial,sans-serif;
+    font-weight: 400;
+}
+
+.main_container_1_slide_content_btn{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:0rem 5rem 0rem 0rem;
+    margin-top: 2rem;
+    /* border: 2px solid turquoise; */
+    height: 2.3rem;
+
+}
+.main_container_1_slide_content_btn button{
+    height:100%;
+    padding-left:1.5rem;
+    padding-right: 1.5rem;
+   
+    border-radius: 25px;
+    color: white;
+    background-color: black;
+    font-family: 'SamsungOne',arial,sans-serif;
+    font-size: 0.9rem;
+    border: none;
+}
+.main_container_1_slide_content_btn button:hover{
+    background-color: gray;
+}
+.heading2{
+    text-align: center;
+    font-size: 2.3rem;
+    padding:2rem;
+    font-family: 'SamsungSharpSans',arial,sans-serif;
+    font-weight: 600;
+}
+
+.main_container_2{
+    height:10vh;
+  width:100vw;
+  /* border: 2px solid green; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main_container_2 ul{
+    width:50%;
+    height: 60%;
+list-style: none;
+display: flex;
+align-items: flex-end;
+justify-content: space-between;
+/* border:2px solid firebrick; */
+}
+.main_container_2 ul li{
+    font-size: 1em;
+    font-family: 'SamsungOne',arial,sans-serif;
+    font-weight: 600;
+}
+.listone{
+    border-bottom: 3px solid black;
+}
+.main_container_3{
+    height:95vh;
+    width:100vw;
+    /* border: 2px solid lawngreen; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main_container_3_main_container{
+    height:100%;
+    width:90%;
+    /* border: 2px solid olive; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.main_container_3_subcontainer_1{
+    width:50%;
+    height:95%;
+    /* border:2px solid gray; */
+    background-image: url(https://images.samsung.com/is/image/samsung/assets/in/home/0612/S23_Lime_684x684.jpg?$684_684_JPG$);
+   border-radius: 1rem;
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+
+.main_container_3_subcontainer_1 h2{
+    font-family: 'SamsungOne',arial,sans-serif;
+    font-weight: 600;
+    font-size: 1.4rem;
+    text-align: center;
+    margin-top: 2rem;
+    
+}
+.main_container_3_subcontainer_1 h1{
+    font-family: 'SamsungOne',arial,sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.main_container_3_main_container_btn{
+    width:100%;
+    height:4rem;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_container_3_main_container_btn button{
+    height:2.5rem;
+    padding-left:1.3rem;
+    padding-right: 1.3rem;
+   
+    border-radius: 25px;
+    color: white;
+    background-color: black;
+    font-family: 'SamsungOne',arial,sans-serif;
+    font-size: 0.9rem;
+    border: none;
+}
+
+.main_container_3_main_container_btn button:hover{
+    background-color: gray;
+}
+
+.main_container_3_subcontainer_2{
+    width:50%;
+    height:95%;
+    /* border:2px solid gray; */
+    display: flex;
+    flex-direction: column;
+}
+.main_container_3_subcontainer_2_subcontainer{
+    width:100%;
+    height:50%;
+    /* border: 2px solid hotpink; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+/* .main_container_3_subcontainer_2_subcontainer_1{
+    width:100%;
+    height:50%;
+    border: 2px solid hotpink;
+} */
+
+.main_container_3_subcontainer_2_subcontainer_1{
+    height:95%;
+    width:45%;
+    /* border: 2px solid fuchsia; */
+    border-radius: 2rem;
+    background:url(https://images.samsung.com/is/image/samsung/assets/in/home/0612/Small_tile_330x330_S22.jpg?$330_330_JPG$);
+    display: flex;
+    align-items:center ;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.main_container_3_subcontainer_2_subcontainer_1 h3{
+font-size: 1.1em;
+font-weight: 600;
+font-family: 'SamsungOne',arial,sans-serif;
+}
+.main_container_3_subcontainer_2_subcontainer_1 h2{
+    font-size: 1.1em;
+    font-weight: 600;
+    font-family: 'SamsungOne',arial,sans-serif;
+}
+.main_container_3_subcontainer_2_subcontainer_1 p{
+margin-bottom: 4em;
+
+text-align: center;
+font-size: 0.6em;
+width: 80%;
+font-family: 'SamsungOne',arial,sans-serif;
+}
+
+
+
+.main_container_3_subcontainer_2_subcontainer_2{
+    height:95%;
+    width:45%;
+    /* border: 2px solid fuchsia; */
+    border-radius: 2rem;
+    background:url(https://images.samsung.com/is/image/samsung/assets/in/home/0612/Flip3_Small_Tile_330x330.jpg?$330_330_JPG$);
+    display: flex;
+    align-items:center ;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.main_container_3_subcontainer_2_subcontainer_2 h3{
+    font-size: 1.1em;
+    font-weight: 600;
+    font-family: 'SamsungOne',arial,sans-serif;
+    }
+    .main_container_3_subcontainer_2_subcontainer_2 h2{
+        font-size: 1.1em;
+        font-weight: 600;
+        font-family: 'SamsungOne',arial,sans-serif;
+    }
+    .main_container_3_subcontainer_2_subcontainer_2 p{
+    margin-bottom: 4em;
+    margin-top: 0.5rem;
+    text-align: center;
+    font-size: 0.6em;
+    width: 80%;
+    font-family: 'SamsungOne',arial,sans-serif;
+    }
+
+.main_container_3_subcontainer_2_subcontainer_1_1{
+    height:95%;
+    width:45%;
+    /* border: 2px solid fuchsia; */
+    border-radius: 2rem;
+    background:url(https://images.samsung.com/is/image/samsung/assets/in/home/330x330_Odyssey-G8.jpg?$330_330_JPG$);
+    margin-top: 0.7rem;
+    display: flex;
+    align-items:center ;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.main_container_3_subcontainer_2_subcontainer_1_1 h3{
+    font-size: 1.1em;
+    font-weight: 600;
+    font-family: 'SamsungOne',arial,sans-serif;
+    }
+    .main_container_3_subcontainer_2_subcontainer_1_1 h2{
+        font-size: 1.1em;
+        font-weight: 600;
+        font-family: 'SamsungOne',arial,sans-serif;
+    }
+    .main_container_3_subcontainer_2_subcontainer_1_1 p{
+    margin-bottom: 4em;
+    margin-top: 0.5rem;
+    text-align: center;
+    font-size: 0.6em;
+    width: 80%;
+    font-family: 'SamsungOne',arial,sans-serif;
+    }
+.main_container_3_subcontainer_2_subcontainer_2_2{
+    height:95%;
+    width:45%;
+    /* border: 2px solid fuchsia; */
+    border-radius: 2rem;
+    background:url(https://images.samsung.com/is/image/samsung/assets/in/home/330x330_Corporate-Plus.jpg?$330_330_JPG$);
+    margin-top: 0.7rem;
+    display: flex;
+    align-items:center ;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.main_container_3_subcontainer_2_subcontainer_2_2 h3{
+    font-size: 1.1em;
+    font-weight: 600;
+    font-family: 'SamsungOne',arial,sans-serif;
+    }
+    .main_container_3_subcontainer_2_subcontainer_2_2 h2{
+        font-size: 1.1em;
+        font-weight: 600;
+        font-family: 'SamsungOne',arial,sans-serif;
+    }
+    .main_container_3_subcontainer_2_subcontainer_2_2 p{
+    margin-bottom: 4em;
+    margin-top: 0.5rem;
+    text-align: center;
+    font-size: 0.6em;
+    width: 80%;
+    font-family: 'SamsungOne',arial,sans-serif;
+    padding-top: 1em;
+    }
+    .main_container_4{
+        height:105vh;
+        width:100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .main_container_4_main_container{
+        height:100%;
+        width: 90%;
+        background-image: url(https://images.samsung.com/is/image/samsung/assets/in/home/PM_S23-Ultra-1440x810.jpg?$1440_810_JPG$);
+
+    }
+    .main_container_4_main_container h2{
+        color:white;
+        font-size: 2.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top:2.5rem;
+       font-family: 'SamsungSharpSans',arial,sans-serif;
+       font-weight: 600;
+    }
+    .main_container_4_main_container_list{
+        width:100%;
+        height:10%;
+        /* border: 2px solid white; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .main_container_4_main_container_list ul{
+        width: 70%;
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+        color: white;
+    }
+    .main_container_4_main_container_list ul li{
+        font-size: 1.2rem;
+        font-family:'SamsungSharpSans',arial,sans-serif;
+    }
+    .border{
+        border-bottom: 3px solid white;
+    }
+    .main_container_4_bottom{
+        height:73%;
+        width:100%;
+        /* border:2px solid red; */
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
+    .main_container_4_bottom_subcontainer{
+        height:30%;
+        width:30%;
+        /* border: 2px solid hotpink; */
+    }
+    .main_container_4_bottom_subcontainer h1{
+        color:white;
+        text-align: center;
+        font-size: 3rem;
+        font-family:'SamsungSharpSans',arial,sans-serif;
+        font-weight: 600;
+        padding-top: 1rem;
+    }
+    .main_container_4_bottom_subcontainer p{
+        color:white;
+        text-align: center;
+        font-family:'SamsungSharpSans',arial,sans-serif;
+        font-size: 1em;
+        padding-top:0.5em ;
+    } 
+    .link-btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 0.5em;
+    }
+    .link-btn a{
+        color :white;
+        padding-right:1.5em ;
+    }
+    .link-btn button{
+        padding:0.7em 1.7em 0.7em 1.7em;
+        border-radius: 25px;
+        font-size: 0.8em;
+        font-family:'SamsungSharpSans',arial,sans-serif;
+        font-weight: 600;
+        border: none;
+    }
+    .link-btn button:hover{
+        background-color: rgb(217, 209, 209);
+    }
+    .main_container_5{
+        height:105vh;
+        width:100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+    }
+    .main_container_5_main_container{
+        height:100%;
+        width: 90%;
+        background-image: url(https://images.samsung.com/is/image/samsung/assets/in/home/Neo_Qled_8K_1440x810.jpg?$1440_810_JPG$);
+
+
+    }
+    .main_container_5_main_container h2{
+        color:white;
+        font-size: 2.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top:2.5rem;
+       font-family: 'SamsungSharpSans',arial,sans-serif;
+       font-weight: 600;
+    }
+    .main_container_5_main_container_list{
+        width:100%;
+        height:10%;
+        /* border: 2px solid white; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .main_container_5_main_container_list ul{
+        width: 50%;
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+        color: white;
+    }
+    .main_container_5_main_container_list ul li{
+        font-size: 1.1rem;
+        font-family:'SamsungSharpSans',arial,sans-serif;
+        font-weight: 600;
+    }
+
+    .main_container_5_bottom{
+        height:80%;
+        width:100%;
+        /* border:2px solid red; */
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
+    .main_container_5_bottom_subcontainer{
+        height:30%;
+        width:30%;
+        padding-top: 4rem;
+        /* border: 2px solid hotpink; */
+    }
+    .main_container_5_bottom_subcontainer h1{
+        color:white;
+        text-align: center;
+        font-size: 3rem;
+        font-family:'SamsungSharpSans',arial,sans-serif;
+        font-weight: 600;
+        padding-top: 1rem;
+    }
+    .main_container_5_bottom_subcontainer p{
+        color:white;
+        text-align: center;
+        font-family:'SamsungSharpSans',arial,sans-serif;
+        font-size: 1em;
+        padding-top:0.5em ;
+    } 
+    .main_container_6{
+        height:105vh;
+        width:100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+    }
+    .main_container_6_main_container{
+        height:100%;
+        width: 90%;
+        background-image: url(https://images.samsung.com/is/image/samsung/assets/in/home/Product-Marketing_1440x810_43AUE65-0519.jpg?$1440_810_JPG$);
+}
+.main_container_6_main_container h2{
+    color:black;
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top:2.5rem;
+   font-family: 'SamsungSharpSans',arial,sans-serif;
+   font-weight: 600;
+}
+.main_container_6_main_container_list{
+    width:100%;
+    height:10%;
+    /* border: 2px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main_container_6_main_container_list ul{
+    width: 85%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.border_{
+    border-bottom: 3px solid black;
+}
+.main_container_6_main_container_list ul li{
+    color: black;
+    font-weight: 700;
+    font-size: 1.1rem;
+    font-family:'SamsungSharpSans',arial,sans-serif;
+    
+    
+}
+
+.main_container_6_bottom{
+    height:73%;
+    width:100%;
+    /* border:2px solid red; */
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.main_container_6_bottom_subcontainer{
+    height:30%;
+    width:50%;
+    /* border: 2px solid hotpink; */
+}
+.main_container_6_bottom_subcontainer h1{
+    color:black;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family:'SamsungSharpSans',arial,sans-serif;
+    font-weight: 600;
+    padding-top: 1rem;
+}
+.main_container_6_bottom_subcontainer p{
+    color:black;
+    text-align: center;
+    font-family:'SamsungSharpSans',arial,sans-serif;
+    font-size: 1em;
+    padding-top:0.5em ;
+    font-weight: 400;
+} 
+.link-btn .btn{
+    background-color: black;
+    color: white;
+    
+}
+.main_heading2{
+    font-size: 2.5rem;
+    text-align: center;
+    padding:2.5rem;
+    font-family:'SamsungSharpSans',arial,sans-serif;
+}
+.main_container_7{
+    height:100vh;
+    width:100vw;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.main_container_7_main_container{
+    height:95%;
+    width:90%;
+    /* border: 2px solid lawngreen; */
+    display: flex;
+}
+.main_container_7_main_container_left{
+    width:50%;
+    height:100%;
+    /* border: 2px solid navy; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.main_container_7_main_container_left img{
+    border-radius: 20px;
+    width:100%;
+    height: 100%;
+}
+
+.main_container_7_main_container_right{
+    width:50%;
+    height:100%;
+    /* border: 2px solid orange; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.tips{
+   
+    height:70%;
+    width:90%;
+    /* border: 2px solid orangered; */
+    padding-left:2rem;
+    border-top: 3px solid black;
+    padding-top:1.5rem ;
+}
+.tips p{
+    font-size: 1.6rem;
+    font-family: 'SamsungSharpSans',arial,sans-serif;
+    font-weight: 700;
+    margin-bottom: 4rem;
+}
+.num{
+    font-size: 1.1rem;
+}
+
+.main_container_8{
+    height:35vh;
+    width:100vw;
+    /* border: 2px solid red; */
+    display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.main_container_8_main_container{
+    width:40%;
+    height:100%;
+    /* border: 2px solid indigo; */
+}
+.main_container_8_main_container h1{
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'SamsungSharpSans',arial,sans-serif;
+}
+.search_for{
+    width:100%;
+    height:20%;
+    /* border: 2px solid red; */
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search_for_main_container{
+    height:100%;
+    width:80%;
+    /* border: 2px solid rebeccapurple; */
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f7f7;
+    border: 1px solid black;
+}
+.search_for_main_container input{
+    padding:0.7rem;
+    width:70%;
+    height:15%;
+    margin-left: 1rem;
+    background-color: #f7f7f7;
+    border: none;
+    outline: none;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.search_for_main_container :hover{
+    outline: dotted;
+}
+.button_row_1{
+    margin-top: 0.5em;
+    height:20%;
+    width:100%;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.button_row_1 button{
+height:85%;
+padding: 0rem 0.7rem 0rem 0.7rem;
+border-radius: 25px;
+border: 1px solid #dadada;
+background-color: white;
+}
+.button_row_1 button:hover{
+    
+    background-color: rgb(232, 231, 231);
+    }
+  .button_row_2{
+    margin-top: 0.5em;
+    height:18%;
+    width:100%;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }  
+
+  .button_row_2 button{
+    height:85%;
+    padding: 0rem 0.7rem 0rem 0.7rem;
+    border-radius: 25px;
+    border: 1px solid #dadada;
+    background-color: white;
+    margin-right: 0.5rem;
+    }
+   
+    .button_row_2 button:hover{
+    
+        background-color: rgb(232, 231, 231);
+        }
+
+      .main_container_9{
+        height:40vh;
+        width:100vw;
+        /* border: 2px solid hotpink; */
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+      }  
+
+      .main_container_9_main_container{
+        width:90%;
+        height:100%;
+        /* border: 2px solid teal; */
+      }
+      .main_container_9_main_container p{
+        padding:auto;
+        font-size: 0.7rem;
+        margin-top: 1.4rem;
+        font-family: 'SamsungSharpSans',arial,sans-serif;
+      }
+     
+      .main_container_10{
+        height:90vh;
+        width:100vw;
+        /* border: 2px solid green; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .main_container_10_main_container{
+        width:90%;
+        height:95%;
+        
+        display: flex;
+      }
+      .main_container_10_main_container_sub_1{
+        width:20%;
+        height:100%;
+        border-right: 2px solid #cecece;
+        border-top: 2px solid #cecece;
+        border-bottom: 2px solid #cecece;
+        padding-top:1rem;
+      }
+      .main_container_10_main_container_sub_1 h2{
+font-family: 'SamsungSharpSans',arial,sans-serif;
+font-size: 1rem;
+margin-left: 0.5rem;
+      }
+
+      .main_container_10_main_container_sub_1 ul{
+        list-style: none;
+      }
+      .main_container_10_main_container_sub_1 ul li{
+        padding:1rem 1rem 0.3rem 0.5rem;
+        font-family:'SamsungSharpSans',arial,sans-serif;
+        font-size: 0.8rem;
+        
+      }
+      .main_container_10_main_container_sub_1 ul li a{
+        text-decoration: none;
+        color: black;
+      }
+      .main_container_10_main_container_sub_1 ul li a:hover{
+        text-decoration:underline;
+        color:blue
+        
+      }
+      .main_container_10_main_container_sub_2{
+        width:20%;
+        height:100%;
+        padding-top:1rem;
+        border-top: 2px solid #cecece;
+        border-bottom: 2px solid #cecece;
+      }
+      .main_container_10_main_container_sub_2 ul{
+        list-style: none;
+      }
+      .main_container_10_main_container_sub_2 ul li{
+        padding:1rem 1rem 0.3rem 0.5rem;
+        font-family:'SamsungSharpSans',arial,sans-serif;
+        font-size: 0.8rem;
+        
+      }
+      .main_container_10_main_container_sub_2 ul li a{
+        text-decoration: none;
+        color: black;
+      }
+      .main_container_10_main_container_sub_2 ul li a:hover{
+        text-decoration:underline;
+        color:blue
+        
+      }
+       
+       
+      .main_container_10_main_container_sub_2 h2{
+        font-family: 'SamsungSharpSans',arial,sans-serif;
+        font-size: 1rem;
+        margin-left: 0.5rem;
+              }
+.main_container_11{
+    height:20vh;
+    width:100vw;
+    border-bottom: 2px solid #cecece;
+    padding-left: 5rem;
+} 
+.main_container_11 p{
+    margin-top: 1rem;
+    font-family: 'SamsungSharpSans',arial,sans-serif;
+    font-size: 0.8rem;
+}    
+footer{
+    height:10vh;
+    width:100vw;
+    /* border: 2px solid forestgreen; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}    
+.left_footer{
+    width:25%;
+    height:100%;
+    /* border: 2px solid hotpink; */
+    margin-left: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.left_footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width:100%;
+    font-family:'SamsungSharpSans',arial,sans-serif;
+}  
+.left_footer ul li{
+    font-size: 0.7rem;
+}    
+.lang{
+    color:black;
+    font-weight: 700;
+}
+.right_footer{
+    width:25%;
+    height:100%;
+   
+    margin-right: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+} 
+.right_footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width:100%;
+    font-family:'SamsungSharpSans',arial,sans-serif;
+} 
+.right_footer ul li{
+    font-size: 0.7rem;
+}   
+
+
